@@ -15,11 +15,19 @@ Suggestions and feedback is very much appreciated.
 
 There will be multiple branches for groovy if there's compatibility issues.
 
-## Usage
-FIXME:
+## Install
+I can't publish to public maven repos so the best way to install it at the moment is to checkout the code and build it yourself.
+```
+> ./gradlew clean install
+```
 
-## Examples
-FIXME:
+
+## Usage and examples
+```groovy
+java.time.LocalDate oneMonthFromToday = java.time.LocalDate.now() + 1.month
+java.time.LocalDateTime oneMonthFromNow = java.time.LocalDateTime.now() + 1.month
+java.time.ZonedDateTime oneMonthFromNowAtUtcTimeZone = ZonedDateTime.now(ZoneId.of("UTC")) + 1.month
+```
 
 ## Testing
 Sorry, I didn't use spock. I wanted to keep the dependencies minial.
