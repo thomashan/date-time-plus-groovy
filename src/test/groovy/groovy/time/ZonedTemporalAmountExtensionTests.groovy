@@ -1,4 +1,4 @@
-package com.thomashan.time
+package groovy.time
 
 import org.junit.Test
 
@@ -6,7 +6,7 @@ import java.time.ZoneId
 import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
 
-class ZonedDateTimeExtensionTests {
+class ZonedTemporalAmountExtensionTests {
 
     @Test
     void testGetRfc3339() {

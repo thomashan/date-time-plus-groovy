@@ -1,4 +1,4 @@
 moduleName=date-time-plus-groovy-module
 moduleVersion=0.1
-extensionClasses=com.thomashan.time.DateTimeExtension,com.thomashan.time.ZonedDateTimeExtension
+extensionClasses=groovy.time.TemporalAmountExtension,groovy.time.ZonedDateTimeExtension
 staticExtensionClasses=

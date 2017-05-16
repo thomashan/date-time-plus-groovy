@@ -1,10 +1,10 @@
-package com.thomashan.time
+package groovy.time
 
 import java.time.Duration
 import java.time.Period
 import java.time.temporal.TemporalAmount
 
-class DateTimeExtension {
+class TemporalAmountExtension {
     static TemporalAmount getYear(Number self) {
         return Period.ofYears(self)
     }

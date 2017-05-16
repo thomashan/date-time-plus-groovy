@@ -1,4 +1,4 @@
-package com.thomashan.time
+package groovy.time
 
 import java.time.ZoneId
 import java.time.ZonedDateTime

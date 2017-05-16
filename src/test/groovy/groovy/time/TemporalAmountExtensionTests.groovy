@@ -1,11 +1,11 @@
-package com.thomashan.time
+package groovy.time
 
 import org.junit.Test
 
 import java.time.Duration
 import java.time.Period
 
-class DateTimeExtensionTests {
+class TemporalAmountExtensionTests {
 
     @Test
     void testYears() {
